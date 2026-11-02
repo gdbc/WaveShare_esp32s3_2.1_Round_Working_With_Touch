@@ -77,7 +77,7 @@ void lv_demo_button(void)
     /*Tile1: just a label*/
     lv_obj_t * tile1 = lv_tileview_add_tile(tv, 0, 0, LV_DIR_BOTTOM);
     lv_obj_t * label = lv_label_create(tile1);
-    lv_label_set_text(label, "Scroll Down Friend");
+    lv_label_set_text(label, "Scroll Down Mate");
     lv_obj_center(label);
 
     /*Tile2: a button*/
